@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
 	<meta charset="UTF-8">
 	<title>Irene Cruz</title>
 </head>
-<header class="bg-dark">
-	<div class="container"> 
-		<div  class="row p-3">
+<header class="bg-dark border-bottom-6">
+	<div class="container "> 
+		<div  class="row p-3 ">
 			<h1 class="col text-white">
 				Irene Raquel Cruz
 			</h1>
 			<nav class="col-md-auto text-white pt-3">
 				<ul class="nav justify-content-end">
 		  			<li class="nav-item">
-						<a class=" text-white " href="Gallery.html">
+						<a class=" text-white " href="#gallery">
 							Gallery
 						</a>
 					</li>
@@ -35,12 +39,12 @@
 </header>
 
 <body>
-	<div class="mx-auto">
+	<div class="mx-auto ">
 		<img style="width:100%; height: 400px" src="images/eyes.jpg" alt="eyes">
 	</div>
-		<table class="table table-borderless pt-5">
+		<table class="table table-borderless ">
   			<thead>
-   				<tr class="mx-auto row">
+   				<tr class="mx-auto row pt-3">
 					 <th scope="row">
 					 	<td class="mx-auto" style="width:200px;">
 							<a href="travel.html">
@@ -61,60 +65,58 @@
 				</tr>
 		</thead>
 	</table>
-<span class="border border-dark">
-	<div style="" class="d-flex justify-content-around bg-dark">
-				<ul class="nav">
-					<li class="nav-item">
-						<a href="travel.html">
-							<img style="width:250px; height: 410px" src="images/road.jpg" alt="eyes">
-						</a>
-					</li>
-				</ul>
-			
-				<ul class="nav">
-					<li class="nav-item">
-						<a href="department.html">
-							<img class="full-fill" style="width:250px; height: 410px" src="images/carecen.jpg" alt="eyes">
-						</a>
-					</li>
-				</ul>
-			
-				<ul class="nav">
-					<li class="nav-item">
-						<a href="losangeles.html">
-							<img style="width:250px; height: 410px" src="images/3.jpg" alt="eyes">
-						</a>
-					</li>
-				</ul>
-			</div>
-	</span>
-	<div>
-		<h1>
-			Travel
-		</h1>
-		<h1>
-			Central American Studies
-		</h1>
-		<h1>
-			Los Angeles
-		</h1>
 
-<div class="progress">
-  <div class="progress-bar bg-dark" role="bar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-	</div>
+	<div class="border-dark border-5">
+	<div class=" bg-dark d-flex justify-content-around py-4">
+							<a  href="travel.html">
+								<img class="" style="width:390px; height: 550px" src="images/road.jpg" alt="eyes">
+							</a>
+					
+						<a href="department.html">
+							<img class="" style="width:390px; height: 550px" src="images/carecen.jpg" alt="eyes">
+						</a>
+					
+						<a href="losangeles.html">
+							<img class="" style="width:390px; height: 550px" src="images/3.jpg" alt="eyes">
+						</a>
+		</div>
+		</div>				
+
+	<table class="table table-borderless pt-5">
+  			<thead>
+   				<tr class="mx-auto row">
+					 <th scope="">
+					 	<td class="mx-auto" >
+							<h4>
+								Travel
+							</h4>
+						</td>
+						<td class="mx-auto" >
+							<h4>
+								Central American Studies
+							</h4>
+						</td>
+						<td class="mx-auto" >
+							<h4>
+								Los Angeles
+							</h4>
+						</td>
+					</th>
+				</tr>
+			</thead>
+	</table>
 </body>
 
-<footer>
-	<div >
-		<a href="https://www.facebook.com/irene.cruz.319247">
-			<img  style="width:50px; height:50px" src="images/facebookicon.png">
+<footer class="border-dark border-lg border-top">
+	<div class="d-flex justify-content-center">
+		<a  class="p-2" href="https://www.facebook.com/irene.cruz.319247">
+			<img  style="width:64px; height:64px" src="images/facebookicon.png">
 		</a>
-		<a href="https://www.instagram.com/irene_cruz_kinda/">
-			<img style="width:45px; height:45px" src="images/instagramicon.png">
+		<a class="p-3" href="https://www.instagram.com/irene_cruz_kinda/">
+			<img style="width:55px; height:55px" src="images/instagramicon.png">
 		</a>
-		<a href="">
-			<img style="width:43px; height:43px" src="images/whatsappicon.png">
+		<a class="p-3" href="">
+			<img style="width:53px; height:53px" src="images/whatsappicon.png">
 		</a>
 	</div>
 </footer>
