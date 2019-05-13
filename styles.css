@@ -143,3 +143,17 @@ max-width: 100%;
 .lightbox-target:target a.lightbox-close {
 top: 0px;
 }
+
+.bio img{
+	border-radius:50%;
+	padding:30px;
+}
+.bio p{
+	font-size: 30px;
+	padding:50px;
+	color:white;
+	margin:0px;
+}
+.bio{
+	;
+}
