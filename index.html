@@ -13,36 +13,29 @@
 </head>
 <header class="bg-dark border-bottom-6">
 
-	<div class="container "> 
-		<div  class="row p-3 ">
+	<nav class="navbar sticky-top navbar-expand-lg bg-dark">
+    	<div class="container">
+      		<a class="navbar-brand text-white" href="index.html"> <h1>Irene Raquel Cruz</h1></a>
+      			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   					<i class=" text-white fas fa-bars"></i>
+  				</button>
 
-			<h1 class="col text-white">
-				Irene Raquel Cruz
-			</h1>
-			
-			<nav class="col col-md-auto pt-3 px-5">
-				<ul class="nav">
-		  			<li class="nav-item">
-						<a class="text-white " href="index.html">
-							Home
-						</a>
-					</li>
-				</ul>
-			</nav>
-			<nav class="col-lg-2 pt-3 px-5 ">
-				<ul class="nav">
-		  			<li class="nav-item">
-						<a class="text-white" href="Bio.html">
-							Bio 
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</div>
+      		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+       			 <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          			<li class="nav-item active">
+            			<a class="nav-link text-white" href="index.html">
+            				Home 
+            			<span class="sr-only">(current)</span></a>
+          			</li>
+          			<li class="nav-item">
+            			<a class="nav-link text-white" href="bio.html">Bio</a>
+          			</li>
+        		</ul>
+      		</div>
+    </div>
+  </nav>
 
 </header>
-
 <body>
 
 	<div class="mx-auto ">
@@ -71,9 +64,9 @@
 				</tr>
 		</thead>
 	</table>
-
-	<div class="border-dark border-5">
-	<div class=" bg-dark d-flex justify-content-around py-4">
+<div class="d-none d-md-block ">
+	<div class="border-dark border-5 ">
+	<div class=" bg-dark d-flex justify-content-around py-4 md:invisible">
 							<a  href="travel.html">
 								<img class="" style="width:390px; height: 550px" src="images/road.jpg" alt="eyes">
 							</a>
@@ -111,6 +104,7 @@
 				</tr>
 			</thead>
 	</table>
+</div>
 </body>
 
 <footer class="border-dark border-lg border-top">
